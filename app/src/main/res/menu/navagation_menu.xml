@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/song_playing_now"
+            android:icon="@drawable/playing"
+            android:title="@string/song_playing" />
+
+        <item
+            android:id="@+id/song_play_list"
+            android:icon="@drawable/lists"
+            android:title="@string/song_playlist" />
+
+        <item
+            android:id="@+id/song_albums"
+            android:icon="@drawable/albums"
+            android:title="@string/song_album" />
+
+        <item
+            android:id="@+id/song_artists"
+            android:icon="@drawable/artists"
+            android:title="@string/song_artists" />
+
+        <item
+            android:id="@+id/song_favorites"
+            android:icon="@drawable/favorites"
+            android:title="@string/song_favorites" />
+
+
+        <item
+            android:id="@+id/equalizer_song"
+            android:icon="@drawable/sound_equal"
+            android:title="@string/song_equalizer" />
+
+    </group>
+</menu>

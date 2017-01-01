@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andriod="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+
+    <TextView
+        android:text="title"
+        android:textSize="12sp"
+        android:paddingTop="5px"
+        android:paddingLeft="5px"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/title_album"
+        android:layout_above="@+id/artist_album"
+        android:layout_toLeftOf="@+id/dur_album"
+        android:layout_toStartOf="@+id/dur_album" />
+
+    <TextView
+        android:text="artists"
+        android:textSize="10sp"
+        android:paddingTop="5px"
+        android:paddingRight="5px"
+        android:paddingLeft="5px"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/artist_album"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/title_album"
+        android:layout_alignEnd="@+id/title_album" />
+
+    <TextView
+        android:text="4:30"
+        android:textSize="12sp"
+        android:paddingRight="3px"
+        android:paddingTop="5px"
+        android:paddingLeft="10px"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/dur_album"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
